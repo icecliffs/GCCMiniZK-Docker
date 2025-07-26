@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "../node_modules/nes.css/css/nes.css";
+
+.pixel-border {
+  background: #808080;
+  color: #111;
+  cursor: pointer;
+  box-shadow: 
+    4px 4px 0 #4a4a4a,
+    0 0 0 4px #808080,
+    0 0 0 8px #111;
+  transition: all 0.1s ease-in-out;
+}
+
+.pixel-border:active {
+  box-shadow: 
+    1px 1px 0 #818181;
+  transform: translate(1px, 1px);
+}
+
+.pixel-grid {
+  background-image: linear-gradient(rgba(100, 100, 100, .1) 1px, transparent 0), linear-gradient(90deg, rgba(100, 100, 100, .1) 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+@font-face {
+  font-family: 'xiangsu';
+  src: url("/xiangsu.ttf");
+}

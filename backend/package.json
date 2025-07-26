@@ -1,0 +1,20 @@
+{
+  "name": "serverside",
+  "version": "1.0.0",
+  "description": "chmod +x script.sh ./script.sh ## 服务器启动 npm init -y npm install express multer snarkjs node server.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "snarkjs": "^0.7.5"
+  }
+}
